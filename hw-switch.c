@@ -358,3 +358,28 @@ int main()
 
 }
 
+//7.Using arrey input from user and output same;
+
+#include<stdio.h>
+int main()
+{
+    int num[5];
+    printf("Enter 5 number\n");
+
+    //For input;
+    for(int i=0; i<5; i++)
+    {
+        scanf("%d",&num[i]);
+    }
+    printf("You entered\n");
+
+    //for output
+    for(int i=0; i<5; i++)
+    {
+        printf("%d",num[i]);
+    }
+
+    return 0;
+}
+
+
